@@ -1,3 +1,5 @@
+## LIVE DEMO(solved-result):- <a href='https://prashanth-m-ipldashboard.netlify.app/'>IPL DASHBOARD</a>
+
 In this project, let's build an **IPL Dashboard App** by applying the concepts we have learned till now.
 
 ### Refer to the image below:
