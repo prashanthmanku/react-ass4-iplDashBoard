@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.match-item-container {
+  background-color: #0f172a;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+  margin: 5px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.match-item-competingTeamLogo {
+  width: 50px;
+}
+.match-item-competingTeam-name {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.match-item-result {
+  font-size: 10px;
+  font-weight: 300;
+}
+.won-status-color {
+  color: #18ed66;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: auto;
+}
+.lose-status-color {
+  color: #e31a1a;
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: auto;
+}
+
+@media screen and (min-width: 380px) {
+  .match-item-container {
+    width: 150px;
+  }
+}

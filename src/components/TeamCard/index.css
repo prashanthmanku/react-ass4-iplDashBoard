@@ -1,0 +1,61 @@
+/* Write your CSS here */
+
+.team-card-item-container {
+  width: 42%;
+  margin-right: 15px;
+
+  margin-bottom: 15px;
+  background-color: #ffffff33;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+.match-nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.team-item-img {
+  width: 30px;
+  margin-right: 10px;
+}
+.team-item-name {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+@media screen and (min-width: 768px) {
+  .team-item-img {
+    width: 50px;
+  }
+  .team-item-name {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 315px) {
+  .match-nav-link {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
+
+/* // Write your code here
+import {Link} from 'react-router-dom'
+import './index.css'
+
+const TeamCard = props => {
+  const {temDetails} = props
+  const {id, name, teamImageUrl} = temDetails
+
+  return (
+    <Link to={`/ipl/${id}`} className="match-nav-link">
+      <li className="team-card-item-container">
+        <img src={teamImageUrl} alt={name} className="team-item-img" />
+        <p className="team-item-name">{name}</p>
+      </li>
+    </Link>
+  )
+}
+
+export default TeamCard
+*/

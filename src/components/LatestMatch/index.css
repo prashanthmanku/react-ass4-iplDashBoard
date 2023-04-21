@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.latest-match-details-container {
+  background-color: #0f172a;
+  color: #ffffff;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center; */
+  width: 100%;
+
+  border-radius: 10px;
+}
+.latest-match-container1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  /* width: 10%; */
+}
+.latest-match-container2 {
+  padding: 15px;
+  border-top: 1px solid #475569;
+}
+
+.latest-match-content {
+  width: 170px;
+}
+.competingTeam-name {
+  font-size: 17px;
+  font-weight: 400;
+}
+.date {
+  font-size: 17px;
+  font-weight: 400;
+}
+.venue {
+  font-size: 11px;
+  font-weight: 300;
+}
+.result {
+  font-size: 11px;
+  font-weight: 300;
+}
+.competingTeamLogo {
+  width: 50px;
+}
+
+.innings-heading {
+  font-size: 14px;
+  font-weight: 400;
+}
+.innings-value {
+  font-size: 11px;
+  font-weight: 400;
+}
+@media screen and (max-width: 200px) {
+  .latest-match-container1 {
+    flex-direction: column;
+  }
+  .latest-match-content {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 450px) {
+  .competingTeamLogo {
+    width: 80px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .latest-match-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .latest-match-container2 {
+    border: none;
+  }
+  .latest-match-container1 {
+    width: 55%;
+  }
+  .competingTeamLogo {
+    width: 100px;
+  }
+}
